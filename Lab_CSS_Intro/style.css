@@ -54,7 +54,8 @@ body {
 }
 
 .destaque {
-    color: var(--cor-primaria);
+    color: hsl(145, 80%, 20%);
+
 }
 
 /* FORMULÁRIO */
@@ -93,6 +94,11 @@ textarea:focus {
     outline: 3px solid rgba(10, 102, 194, .2);
     border-color: var(--cor-primaria);
 }
+
+input:hover{
+    border-color: #14532d;
+}
+
 
 /* botões */
 .acoes {
@@ -135,4 +141,14 @@ button.secundario {
     text-align: center;
     padding: 18px 12px;
     color: #6b7280;
+}
+
+.sucesso {
+
+ margin-top: 8px;
+    padding: 12px 14px;
+    border-radius: 10px;
+    border: 1px solid #006400;
+    background: #ecfdee;
+    color: var(--cor-primaria);
 }
